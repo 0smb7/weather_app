@@ -1,0 +1,30 @@
+.app {
+  width: 600px;
+  margin: 0 auto;
+  background-color: darkcyan;
+  padding: 20px;
+  border-radius: 26px;
+  color: white;
+  text-align: center; /* Align text content to the center */
+  display: flex; /* Use flexbox for centering child elements */
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center child elements horizontally */
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between; /* Distribute items along the main axis */
+  margin-top: 20px; /* Add space above */
+  margin-bottom: 20px; /* Add space below */
+}
+
+.forecast-day {
+  text-align: center;
+  flex: 1; /* Each day takes equal space */
+  margin: 0 10px; /* Add horizontal space between each day */
+}
+
