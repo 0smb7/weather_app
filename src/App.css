@@ -1,7 +1,8 @@
 .app {
-  width: 600px;
+  width: 1920px;
+  height: 1080px;
   margin: 0 auto;
-  background-color: darkcyan;
+  background-color: red;
   padding: 20px;
   border-radius: 26px;
   color: white;
